@@ -6,7 +6,7 @@ local win = DiscordLib:Window("Flame Hub 1.1")
 
 local serv = win:Server("Flame Hub", "")
 local flame = win:Server("Updates", "")
-local xd3 = flame:Channel("1.2)
+local xd3 = flame:Channel("1.2")
 local xd2 = flame:Channel("1.1")
 local xd = flame:Channel("1.0") 
 xd2:Label("FlameHub Scripts:")
