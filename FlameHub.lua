@@ -9,8 +9,9 @@ local flame = win:Server("Updates", "")
 local xd3 = flame:Channel("1.2")
 local xd2 = flame:Channel("1.1")
 local xd = flame:Channel("1.0") 
+
 xd3:Label("FlameHub Scripts:")
-xd3:Label("Added Synapse X ONLY Chat")
+xd3:Label("- Added Synapse X Only CHAT")
 xd2:Label("FlameHub Scripts:")
 xd2:Label("- Added Many Admin Scripts")
 
