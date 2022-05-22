@@ -6,12 +6,17 @@ local win = DiscordLib:Window("Flame Hub 1.1")
 
 local serv = win:Server("Flame Hub", "")
 local flame = win:Server("Updates", "")
+local xd4 = flame:Channel("1.3")
 local xd3 = flame:Channel("1.2")
 local xd2 = flame:Channel("1.1")
 local xd = flame:Channel("1.0") 
 
+xd4:Label("FlabeHub Scripts:")
+xd4:Label("- Added Anti-Fling Script)
+
 xd3:Label("FlameHub Scripts:")
 xd3:Label("- Added Synapse X Only CHAT")
+ 
 xd2:Label("FlameHub Scripts:")
 xd2:Label("- Added Many Admin Scripts")
 
@@ -20,12 +25,14 @@ xd:Label("- Aimlock Script")
 xd:Label("- Hitbox Script")
 xd:Label("- Midnight Racing: Tokyo Script")
 xd:Label("- Anti-Lag Script")
+ 
 local aimlock = serv:Channel("Aimlock")
 local hitbox = serv:Channel("Hitbox")
 local mid = serv:Channel("Midnight Racing: Tokyo")
 local dodo = serv:Channel("Anti-Lag")
 local admin = serv:Channel("Admin")
 local chat = serv:Channel("Chat")
+local anti = serv:Channel("Anti-Fling") 
  
 aimlock:Button("Aimlock Script", function()
 DiscordLib:Notification("Notification", "Injected Aimlock Script Successfully.", "Okay!")
@@ -89,3 +96,12 @@ end)
 wait(2.5)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ou1z/Roblox-Scripts/master/Synapse-Chat-App.lua'))()
 end)
+ 
+ anti:Label("Anti-Fling Script:")
+ anti:Button("Inject", function()
+ DiscordLib:Notification("Notification", "Injected Anti-Fling Script Succesfully.", "Okay!")  
+ wait(2.5)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/robloxscriptleaks/flamehub_unobfuscated/main/Anti_Fling.lua?token=GHSAT0AAAAAABUVN5RMEH2JESMTRHHPIJ24YUKUVSQ'))()
+end)
+ 
+ 
