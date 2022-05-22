@@ -2,7 +2,7 @@
 -- Made by flamingrocket
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
-local win = DiscordLib:Window("Flame Hub 1.1")
+local win = DiscordLib:Window("Flame Hub 1.3")
 
 local serv = win:Server("Flame Hub", "")
 local flame = win:Server("Updates", "")
