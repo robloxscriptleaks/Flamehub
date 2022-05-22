@@ -12,7 +12,7 @@ local xd2 = flame:Channel("1.1")
 local xd = flame:Channel("1.0") 
 
 xd4:Label("FlabeHub Scripts:")
-xd4:Label("- Added Anti-Fling Script)
+xd4:Label("- Added Anti-Fling Script")
 
 xd3:Label("FlameHub Scripts:")
 xd3:Label("- Added Synapse X Only CHAT")
