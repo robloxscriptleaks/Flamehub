@@ -48,7 +48,7 @@ end)
 
 mid:Label("password is godxnation")
 mid:Button("Click me to copy key", function() 
-setclipboard("godxnation")
+setclipboard("godxnation356j")
 DiscordLib:Notification("Notification", "Sucessfully set key to clipboard.", "Great!")
 end)
 mid:Button("Midnight Racing: Tokyo Script", function()
